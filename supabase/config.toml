@@ -1,1 +1,10 @@
 project_id = "kaugnpsywznsaznwwgjl"
+
+[functions.students-admin]
+verify_jwt = false
+
+[functions.student-register]
+verify_jwt = false
+
+[functions.submit-assessment]
+verify_jwt = false
