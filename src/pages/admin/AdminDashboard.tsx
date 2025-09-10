@@ -135,54 +135,48 @@ const AdminDashboard = () => {
           </Card>
         </div>
 
-        {/* Management Sections */}
+        {/* Basic Management */}
         <div className="grid lg:grid-cols-2 gap-8 mb-8">
-          {/* System Management */}
+          {/* Basic Settings */}
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Settings className="w-5 h-5" />
-                System Management
+                Basic Settings
               </CardTitle>
-              <CardDescription>Configure and manage system settings</CardDescription>
+              <CardDescription>Essential system configuration</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <Button variant="outline" className="w-full justify-start">
-                Manage Counselors
+                Institute Information
               </Button>
               <Button variant="outline" className="w-full justify-start">
-                System Configuration
+                Contact Details
               </Button>
               <Button variant="outline" className="w-full justify-start">
-                User Role Management
-              </Button>
-              <Button variant="outline" className="w-full justify-start">
-                Assessment Settings
+                Basic Notifications
               </Button>
             </CardContent>
           </Card>
 
-          {/* Analytics & Reports */}
+          {/* Basic Reports */}
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <BarChart3 className="w-5 h-5" />
-                Analytics & Reports
+                Basic Reports
               </CardTitle>
-              <CardDescription>View system analytics and generate reports</CardDescription>
+              <CardDescription>View essential statistics</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <Button variant="outline" className="w-full justify-start">
-                Mental Health Trends
+                Student Overview
               </Button>
               <Button variant="outline" className="w-full justify-start">
-                Counselor Performance
+                Counselor Status
               </Button>
               <Button variant="outline" className="w-full justify-start">
-                Student Engagement
-              </Button>
-              <Button variant="outline" className="w-full justify-start">
-                Export Data Reports
+                Basic Export
               </Button>
             </CardContent>
           </Card>
