@@ -25,7 +25,7 @@ const CounselorLogin = () => {
       localStorage.setItem('counselorUser', JSON.stringify({ 
         id: '2', 
         email: email, 
-        name: 'Dr. Sarah Johnson',
+        name: 'MS. AMAN BALI',
         role: 'counselor',
         specialization: 'Clinical Psychology'
       }));
